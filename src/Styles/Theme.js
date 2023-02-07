@@ -9,6 +9,19 @@ export const Theme = {
     l: "992px",
     xl: "1200px",
   },
+  desktop: {
+    rows: "auto",
+    columns: "1fr auto",
+    area: `
+    "content sidebar"
+              `,
+  },
+  desktopTwo: {
+    rows: "",
+    columns: "",
+    area: `
+              `,
+  },
   mobile: {
     rows: "auto auto 1fr auto",
     columns: "1fr",
@@ -37,22 +50,6 @@ export const Theme = {
               `,
   },
   tabletTwo: {
-    rows: "",
-    columns: "",
-    area: `
-              `,
-  },
-  desktop: {
-    rows: "auto auto 1fr auto",
-    columns: "1fr",
-    area: `
-    "header"
-    "hero"
-    "main"
-    "footer"
-              `,
-  },
-  desktopTwo: {
     rows: "",
     columns: "",
     area: `

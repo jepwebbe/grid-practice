@@ -16,6 +16,9 @@ body {
 }
 #root {
     height: 100%;
+    grid-template-rows: "auto";
+    grid-template-columns: "1fr auto";
+    grid-template-areas: "content sidebar";
 }
 img {
     display: block;
